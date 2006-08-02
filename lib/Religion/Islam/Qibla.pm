@@ -17,7 +17,7 @@ use Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw();
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 our $pi = 4 * atan2(1, 1),			# 3.1415926535897932;   # PI=22/7, Pi = Atn(1) * 4
 our $DtoR = $pi / 180;				# Degree to Radians
@@ -198,7 +198,7 @@ L<Religion::Islam::Quran>
 
 =head1 AUTHOR
 
-Ahmed Amin Elsheshtawy, E<lt>support@islamware.com<gt>
+Ahmed Amin Elsheshtawy, <support@islamware.com>
 Website: http://www.islamware.com
 
 =head1 COPYRIGHT AND LICENSE
