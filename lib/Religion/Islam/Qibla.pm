@@ -17,7 +17,7 @@ use Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT = qw();
 
-our $VERSION = '1.0';
+our $VERSION = '1.01';
 
 our $pi = 4 * atan2(1, 1),			# 3.1415926535897932;   # PI=22/7, Pi = Atn(1) * 4
 our $DtoR = $pi / 180;				# Degree to Radians
@@ -153,7 +153,7 @@ __END__
 
 =head1 NAME
 
-Religion::Islam::Qibla - Calculates the Qibla Direction, Great Circle Distance, and Great Circle Direction
+Religion::Islam::Qibla - Calculates the Muslim Qiblah Direction, Great Circle Distance, and Great Circle Direction
 
 =head1 SYNOPSIS
 
@@ -188,7 +188,7 @@ Religion::Islam::Qibla - Calculates the Qibla Direction, Great Circle Distance, 
 
 =head1 DESCRIPTION
 
-This module calculates the Qibla direction where muslim paryers directs their face. It 
+This module calculates the Qibla direction where muslim prayers directs their face. It 
 also calculates and uses the Great Circle Distance and Great Circle Direction.
 
 =head1 SEE ALSO
